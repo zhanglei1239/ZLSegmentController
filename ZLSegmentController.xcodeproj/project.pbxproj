@@ -15,6 +15,7 @@
 		047699E71C31042800D796B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047699E51C31042800D796B3 /* LaunchScreen.storyboard */; };
 		047699F21C31042800D796B3 /* ZLSegmentControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047699F11C31042800D796B3 /* ZLSegmentControllerTests.m */; };
 		047699FD1C31042800D796B3 /* ZLSegmentControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047699FC1C31042800D796B3 /* ZLSegmentControllerUITests.m */; };
+		04769A0D1C31048E00D796B3 /* ZLSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 04769A0C1C31048E00D796B3 /* ZLSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		047699F81C31042800D796B3 /* ZLSegmentControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSegmentControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047699FC1C31042800D796B3 /* ZLSegmentControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSegmentControllerUITests.m; sourceTree = "<group>"; };
 		047699FE1C31042800D796B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04769A0B1C31048E00D796B3 /* ZLSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLSegment.h; path = ZLSegment/ZLSegment.h; sourceTree = "<group>"; };
+		04769A0C1C31048E00D796B3 /* ZLSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLSegment.m; path = ZLSegment/ZLSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		047699D61C31042800D796B3 /* ZLSegmentController */ = {
 			isa = PBXGroup;
 			children = (
+				04769A0A1C31043B00D796B3 /* ZLSegment */,
 				047699DA1C31042800D796B3 /* AppDelegate.h */,
 				047699DB1C31042800D796B3 /* AppDelegate.m */,
 				047699DD1C31042800D796B3 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				047699FE1C31042800D796B3 /* Info.plist */,
 			);
 			path = ZLSegmentControllerUITests;
+			sourceTree = "<group>";
+		};
+		04769A0A1C31043B00D796B3 /* ZLSegment */ = {
+			isa = PBXGroup;
+			children = (
+				04769A0B1C31048E00D796B3 /* ZLSegment.h */,
+				04769A0C1C31048E00D796B3 /* ZLSegment.m */,
+			);
+			name = ZLSegment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				047699DF1C31042800D796B3 /* ViewController.m in Sources */,
 				047699DC1C31042800D796B3 /* AppDelegate.m in Sources */,
 				047699D91C31042800D796B3 /* main.m in Sources */,
+				04769A0D1C31048E00D796B3 /* ZLSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
